@@ -21,4 +21,4 @@ for Docker
 `docker exec -it container_name ./cockroach sql --insecure`  
 import sql from(https://github.com/rasmabayu/CRUD-cockroachdb-go-bulma/master/database.sql)
 4. Run `go run *.go`
-5. Done. look(http://localhost:8888) to see the app.
+5. Done. look (http://localhost:8888) to see.

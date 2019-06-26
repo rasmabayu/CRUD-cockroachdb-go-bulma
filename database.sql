@@ -9,4 +9,4 @@ CREATE TABLE cockroach.user (
 INSERT INTO tugas_cockroach.user(name, email) VALUES
 ('rasma', 'rasma@gmail.com'),
 ('bayu', 'bayu@gmail.com'),
-('kisnandar', 'kisnandar@gmail.com'),
+('kisnandar', 'kisnandar@gmail.com');

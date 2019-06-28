@@ -8,7 +8,6 @@ import (
 	"database/sql"
 	_ "github.com/lib/pq"
 )
-
 const (
 	PORT = "8888"
 )
@@ -16,7 +15,7 @@ const (
 var db *sql.DB
 var err error
 
-// main handler
+// handler utama
 func index_handler(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("template/home.html"))
 	data := struct {

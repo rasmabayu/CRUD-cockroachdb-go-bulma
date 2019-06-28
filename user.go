@@ -9,7 +9,7 @@ import (
 	"database/sql"
 )
 
-// Model
+// user struct
 type User struct {
 	Id string `json:"id"`
 	Name string `json:"name"`
@@ -32,7 +32,7 @@ func getUser() []User {
 	return x
 }
 
-// Controller
+// cntrl
 func all_user(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("template/user.html"))
 	data := struct {

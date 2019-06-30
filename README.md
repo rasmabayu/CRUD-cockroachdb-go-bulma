@@ -1,12 +1,12 @@
 # CRUD-cockroachdb-go-bulma
 
-## Installation
+## What You Need 
 ### Golang [Official Instruction](https://golang.org/doc/install)
 [Download](https://golang.org/dl/)
 ### CockroachDB [Official Instruction](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html)
 [Download](https://www.cockroachlabs.com/get-cockroachdb/)
 
-## Running App Step
+## How To Run This App
 1. Clone this repo first  
 `git clone https://github.com/rasmabayu/CRUD-cockroachdb-go-bulma.git`
 2. Start your cockroachdb  

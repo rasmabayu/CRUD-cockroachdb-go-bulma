@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	STATIC_DIR = "/static/"
+	STATIC_DIR = "/template/"
 )
 
 func initRouter() *mux.Router {

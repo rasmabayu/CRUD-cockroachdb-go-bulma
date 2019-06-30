@@ -13,14 +13,14 @@ func initRouter() *mux.Router {
 	// routing
 	r := mux.NewRouter()
 
-	// static directory
+	// library directory
 	r.PathPrefix(STATIC_DIR).
 		Handler(http.StripPrefix(STATIC_DIR, http.FileServer(http.Dir("." + STATIC_DIR))))
 
-	// first page
+	// halaman pertama
 	r.HandleFunc("/", index_handler)
 
-	// route user
+	// route for user
 	userrouter := r.PathPrefix("/user").Subrouter()
 	userrouter.HandleFunc("/", all_user).Methods("GET")
 	userrouter.HandleFunc("/get_user", get_user).Methods("GET")

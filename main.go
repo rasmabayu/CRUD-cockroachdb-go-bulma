@@ -27,7 +27,7 @@ func index_handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	// connect to the database
+	// connect ke database
 	if len(os.Getenv("ROACH_USER")) == 0 { os.Setenv("ROACH_USER", "root") }
 	if len(os.Getenv("ROACH_HOST")) == 0 { os.Setenv("ROACH_HOST", "localhost") }
 	if len(os.Getenv("ROACH_PORT")) == 0 { os.Setenv("ROACH_PORT", "26257") }

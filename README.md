@@ -1,4 +1,4 @@
-# CRUD-cockroachdb-go-bulma
+# CRUD APP (With cockroachdb-go-bulma)
 
 ## What You Need 
 ### Golang [Official Instruction](https://golang.org/doc/install)
